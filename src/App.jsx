@@ -19,7 +19,7 @@ const App = () => {
   }, []);
   return (
     <div>
-      <div className="relative w-full min-h-screen bg-cover bg-no-repeat bg-[url('/src/assets/background.jpeg')] bg-right md:bg-center">
+      <div className="relative w-full min-h-screen bg-cover bg-no-repeat bg-[url('/src/assets/background.webp')] bg-right md:bg-center">
         <Header />
         {/* overlay oscuro */}
         <div
