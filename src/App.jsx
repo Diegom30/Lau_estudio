@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import fondo from "./assets/background.png";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 
 import Studio from "./Components/Studio";
-import Specialists from "./Components/Testimonials";
+
 import Contac from "./Components/Contac";
 import Academia from "./Components/Academia";
 import Testimonials from "./Components/Testimonials";
@@ -19,7 +19,7 @@ const App = () => {
   }, []);
   return (
     <div>
-      <div className="relative w-full min-h-screen bg-cover bg-no-repeat bg-[url('/src/assets/background.png')] bg-right md:bg-center">
+      <div className="relative w-full min-h-screen bg-cover bg-no-repeat bg-[url('/src/assets/background.jpeg')] bg-right md:bg-center">
         <Header />
         {/* overlay oscuro */}
         <div

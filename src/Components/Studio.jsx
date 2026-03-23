@@ -1,6 +1,6 @@
 import React from "react";
 import { FaHeart, FaMagic, FaRegSmile, FaSpa } from "react-icons/fa";
-import EstudioImg from "../assets/Estudio_completo.png";
+import EstudioImg from "../assets/Estudio_completo.jpeg";
 import EstudioImg1 from "../assets/Estudio_1.jpeg";
 import EstudioImg2 from "../assets/Estudio_2.jpeg";
 import EstudioExtra1 from "../assets/Estudio_extra_1.jpeg";
@@ -61,6 +61,7 @@ const Studio = () => {
                   <img
                     src={EstudioImg}
                     alt="Estudio principal"
+                    loading="lazy"
                     className="w-full h-105 object-cover rounded-3xl shadow-lg"
                   />
                 </div>
