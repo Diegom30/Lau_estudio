@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: Brittany;
+  src: url("./assets/fonts/BrittanySignature.ttf");
+}
+
+@theme {
+  --font-brittany: Brittany, "sanf-serif";
+}
+html {
+  scroll-behavior: smooth;
+}
