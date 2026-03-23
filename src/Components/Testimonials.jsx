@@ -119,7 +119,7 @@ const Testimonials = () => {
 
             <div className="mt-8">
               <a
-                href="#contacto"
+                href="#Contac"
                 className="inline-block mt-8 justify-center bg-[#303030] text-[#FBFBFB] px-8 py-3 rounded-full transition shadow-md hover:bg-[#1f1f1f]"
               >
                 Reservar cita
